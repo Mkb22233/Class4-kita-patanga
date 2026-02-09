@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="or">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>କ୍ଷତିକାରକ କୀଟପତଙ୍ଗ ଓ ଅନାବନା ଉଭିଦ - ୧୦୦ MCQ</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f9f0;
+            margin: 0;
+            padding: 20px;
+            direction: ltr;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #2e7d32;
+            border-bottom: 2px solid #2e7d32;
+            padding-bottom: 10px;
+        }
+        .question-box {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        .question-text {
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .options label {
+            display: block;
+            padding: 8px;
+            margin: 5px 0;
+            background-color: #f9f9f9;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        .options label:hover {
+            background-color: #e8f5e9;
+        }
+        input[type="radio"] {
+            margin-right: 10px;
+        }
+        .submit-btn {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            background-color: #2e7d32;
+            color: white;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .submit-btn:hover {
+            background-color: #1b5e20;
+        }
+        .result {
+            text-align: center;
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-top: 20px;
+            padding: 20px;
+            display: none;
+        }
+        .correct {
+            color: green;
+            font-weight: bold;
+        }
+        .incorrect {
+            color: red;
+            font-weight: bold;
+        }
+        .explanation {
+            display: none;
+            margin-top: 5px;
+            font-size: 0.9em;
+            color: #555;
+            background: #fff3cd;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>କ୍ଷତିକାରକ କୀଟପତଙ୍ଗ ଓ ଅନାବନା ଉଭିଦ</h1>
+    <p style="text-align:center;">ସମସ୍ତ ପ୍ରଶ୍ନର ଉତ୍ତର ଦିଅନ୍ତୁ</p>
+
+    <form id="quizForm">
+        <div class="question-box">
+            <div class="question-text">୧. ଯେଉଁମାନଙ୍କର ଡେଣା ଅଛି କିନ୍ତୁ ସେମାନେ ପକ୍ଷୀ ନୁହଁନ୍ତି, ସେମାନଙ୍କୁ କଣ କୁହାଯାଏ?</div>
+            <div class="options">
+                <label><input type="radio" name="q1" value="a"> କ. ପଶୁ</label>
+                <label><input type="radio" name="q1" value="b"> ଖ. ପତଙ୍ଗ</label>
+                <label><input type="radio" name="q1" value="c"> ଗ. କୀଟ</label>
+                <label><input type="radio" name="q1" value="d"> ଘ. ସରୀସୃପ</label>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">୨. ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଏକ 'ପତଙ୍ଗ' ଅଟେ?</div>
+            <div class="options">
+                <label><input type="radio" name="q2" value="a"> କ. ଓଡ଼ଶ</label>
+                <label><input type="radio" name="q2" value="b"> ଖ. ଉକୁଣୀ</label>
+                <label><input type="radio" name="q2" value="c"> ଗ. ମଶା</label>
+                <label><input type="radio" name="q2" value="d"> ଘ. ବୁଢିଆଣୀ</label>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">୩. ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଉଡ଼ିପାରେ ନାହିଁ?</div>
+            <div class="options">
+                <label><input type="radio" name="q3" value="a"> କ. ପ୍ରଜାପତି</label>
+                <label><input type="radio" name="q3" value="b"> ଖ. କଙ୍କି</label>
+                <label><input type="radio" name="q3" value="c"> ଗ. ଅସରପା</label>
+                <label><input type="radio" name="q3" value="d"> ଘ. ଓଡ଼ଶ</label>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">୪. ଛୋଟ ଛୋଟ ପୋକ ଯଥା ଟିକ, ଉକୁଣୀ ଇତ୍ୟାଦିଙ୍କୁ କଣ କୁହାଯାଏ?</div>
+            <div class="options">
+                <label><input type="radio" name="q4" value="a"> କ. ପକ୍ଷୀ</label>
+                <label><input type="radio" name="q4" value="b"> ଖ. କୀଟ</label>
+                <label><input type="radio" name="q4" value="c"> ଗ. ପତଙ୍ଗ</label>
+                <label><input type="radio" name="q4" value="d"> ଘ. ଜଳଚର</label>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">୫. ବୁଢିଆଣୀ କେଉଁ ଶ୍ରେଣୀର ଅନ୍ତର୍ଭୁକ୍ତ?</div>
+            <div class="options">
+                <label><input type="radio" name="q5" value="a"> କ. ପତଙ୍ଗ</label>
+                <label><input type="radio" name="q5" value="b"> ଖ. କୀଟ</label>
+                <label><input type="radio" name="q5" value="c"> ଗ. ପକ୍ଷୀ</label>
+                <label><input type="radio" name="q5" value="d"> ଘ. ଉଭିଦ</label>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">୬. କେଉଁଟିର ଡେଣା ଅଛି?</div>
+            <div class="options">
+                <label><input type="radio" name="q6" value="a"> କ. ଜନ୍ଦା</label>
+                <label><input type="radio" name="q6" value="b"> ଖ. ପିମ୍ପୁଡ଼ି</label>
+                <label><input type="radio" name="q6" value="c"> ଗ. ଝିଣ୍ଟିକା</label>
+                <label><input type="radio" name="q6" value="d"> ଘ. ଟିକ</label>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">୭. ଆମେ ଦେଖୁଥିବା କୀଟପତଙ୍ଗ ମଧ୍ୟରୁ ଅଧିକାଂଶ ଆମର _____ ?</div>
+            <div class="options">
+                <label><input type="radio" name="q7" value="a"> କ. ଶତ୍ରୁ</label>
+                <label><input type="radio" name="q7" value="b"> ଖ. କ୍ଷତିକାରକ</label>
+                <label><input type="radio" name="q7" value="c"> ଗ. ଉପକାରୀ</label>
+                <label><input type="radio" name="q7" value="d"> ଘ. ଅଦରକାରୀ</label>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">୮. ଟିକ କେଉଁ ପ୍ରାଣୀ ଦେହରେ ଲାଗି ରକ୍ତ ଶୋଷିନିଏ?</div>
+            <div class="options">
+                <label><input type="radio" name="q8" value="a"> କ. ମଣିଷ</label>
+                <label><input type="radio" name="q8" value="b"> ଖ. ଗାଈ, ବଳଦ, କୁକୁର</label>
+                <label><input type="radio" name="q8" value="c"> ଗ. ମାଛ</label>
+                <label><input type="radio" name="q8" value="d"> ଘ. ପକ୍ଷୀ</label>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">୯. ଧାନ ଗଛରେ କେଉଁ ପୋକ ଲାଗି ଫସଲ ନଷ୍ଟ କରନ୍ତି?</div>
+            <div class="options">
+                <label><input type="radio" name="q9" value="a"> କ. ହଳଦିଗୁଣ୍ଡି</label>
+                <label><input type="radio" name="q9" value="b"> ଖ. ମଶା</label>
+                <label><input type="radio" name="q9" value="c"> ଗ. ବୁଢିଆଣୀ</label>
+                <label><input type="radio" name="q9" value="d"> ଘ. ମାଛି</label>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">୧୦. କୃମି ବା ଦରଜାପୋକ ମଣିଷ ଶରୀରର କେଉଁଠାରେ ରହନ୍ତି?</div>
+            <div class="options">
+                <label><input type="radio" name="q10" value="a"> କ. ମୁଣ୍ଡରେ</label>
+                <label><input type="radio" name="q10" value="b"> ଖ. ପେଟରେ</label>
+                <label><input type="radio" name="q10" value="c"> ଗ. ହାତରେ</label>
+                <label><input type="radio" name="q10" value="d"> ଘ. ଗୋଡ଼ରେ</label>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">୧୧. କେଉଁ ପତଙ୍ଗ ଫସଲ ଖାଇଯାଆନ୍ତି ଓ ନଷ୍ଟ କରିଦିଅନ୍ତି?</div>
+            <div class="options">
+                <label><input type="radio" name="q11" value="a"> କ. ପ୍ରଜାପତି</label>
+                <label><input type="radio" name="q11" value="b"> ଖ. ମହୁମାଛି</label>
+                <label><input type="radio" name="q11" value="c"> ଗ. ପଙ୍ଗପାଳ</label>
+                <label><input type="radio" name="q11" value="d"> ଘ. ଜନ୍ଦା</label>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">୧୨. କୃମି ପେଟରେ ରହିଲେ କ’ଣ ହୁଏ?</div>
+            <div class="options">
+                <label><input type="radio" name="q12" value="a"> କ. ଦେହ ଭଲ ରହେ</label>
+                <label><input type="radio" name="q12" value="b"> ଖ. ଭୋକ ବଢିଯାଏ</label>
+                <label><input type="radio" name="q12" value="c"> ଗ. ଦେହ ଖରାପ ହୁଏ</label>
+                <label><input type="radio" name="q12" value="d"> ଘ. କିଛି ହୁଏ ନାହିଁ</label>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">୧୩. କେଉଁଟି ଏକ ଉଡ଼ିପାରୁଥିବା କୀଟ (ପତଙ୍ଗ) ନୁହେଁ?</div>
+            <div class="options">
+                <label><input type="radio" name="q13" value="a"> କ. ଜନ୍ଦା</label>
+                <label><input type="radio" name="q13" value="b"> ଖ. ମଶା</label>
+                <label><input type="radio" name="q13" value="c"> ଗ. ମାଛି</label>
+                <label><input type="radio" name="q13" value="d"> ଘ. କଙ୍କି</label>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">୧୪. ଝିଣ୍ଟିକା ଆମର କି କ୍ଷତି କରେ?</div>
+            <div class="options">
+                <label><input type="radio" name="q14" value="a"> କ. ରକ୍ତ ଶୋଷେ</label>
+                <label><input type="radio" name="q14" value="b"> ଖ. ଫସଲ ନଷ୍ଟ କରେ</label>
+                <label><input type="radio" name="q14" value="c"> ଗ. ରୋଗ କରାଏ</label>
+                <label><input type="radio" name="q14" value="d"> ଘ. ପାଣି ଦୂଷିତ କରେ</label>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">୧୫. କେଉଁ ଜୀବଟି କୁକୁର ଦେହରୁ ରକ୍ତ ଶୋଷେ?</div>
+            <div class="options">
+                <label><input type="radio" name="q15" value="a"> କ. ମାଛି</label>
+                <label><input type="radio" name="q15" value="b"> ଖ. ଟିକ</label>
+                <label><input type="radio" name="q15" value="c"> ଗ. ପିମ୍ପୁଡ଼ି</label>
+                <label><input type="radio" name="q15" value="d"> ଘ. ଅସରପା</label>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">୧୬. ପୃଥିବୀର ସବୁ ଉଭିଦ ଆମର କ’ଣ କରନ୍ତି?</div>
+            <div class="options">
+                <label><input type="radio" name="q16" value="a"> କ. କ୍ଷତି</label>
+                <label><input type="radio" name="q16" value="b"> ଖ. କିଛି ଉପକାର</label>
+                <label><input type="radio" name="q16" value="c"> ଗ. କିଛି କରନ୍ତି ନାହିଁ</label>
+                <label><input type="radio" name="q16" value="d"> ଘ. ରୋଗ</label>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">୧୭. ଫସଲ କିଆରୀରେ ଉଠୁଥିବା ଅଦରକାରୀ ଗଛକୁ କଣ କୁହାଯାଏ?</div>
+            <div class="options">
+                <label><input type="radio" name="q17" value="a"> କ. ଫସଲ</label>
+                <label><input type="radio" name="q17" value="b"> ଖ. ଅନାବନା ଉଭିଦ</label>
+                <label><input type="radio" name="q17" value="c"> ଗ. ଔଷଧୀୟ ଗଛ</label>
+                <label><input type="radio" name="q17" value="d"> ଘ. ଫଳ ଗଛ</label>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">୧୮. ଅନାବନା ଉଭିଦ ଫସଲ ଅମଳରେ କ’ଣ ସୃଷ୍ଟି କରନ୍ତି?</div>
+            <div class="options">
+                <label><input type="radio" name="q18" value="a"> କ. ସୁବିଧା</label>
+                <label><input type="radio" name="q18" value="b"> ଖ. ସାହାଯ୍ୟ</label>
+                <label><input type="radio" name="q18" value="c"> ଗ. ବାଧା</label>
+                <label><input type="radio" name="q18" value="d"> ଘ. ସାର</label>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">୧୯. ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଫସଲ କିଆରୀରେ ଦେଖାଯାଉଥିବା ଅନାବନା ଉଭିଦ?</div>
+            <div class="options">
+                <label><input type="radio" name="q19" value="a"> କ. ବାଳୁଙ୍ଗା</label>
+                <label><input type="radio" name="q19" value="b"> ଖ. ଆମ୍ବ</label>
+                <label><input type="radio" name="q19" value="c"> ଗ. ନିମ୍ବ</label>
+                <label><input type="radio" name="q19" value="d"> ଘ. ତୁଳସୀ</label>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">୨୦. ଅନାବନା ଉଭିଦଗୁଡ଼ିକ କାହାର ଆଶ୍ରୟ ସ୍ଥଳ ପାଲଟିଥାଏ?</div>
+            <div class="options">
+                <label><input type="radio" name="q20" value="a"> କ. ମଣିଷର</label>
+                <label><input type="radio" name="q20" value="b"> ଖ. ପୋକଜୋକର</label>
+                <label><input type="radio" name="q20" value="c"> ଗ. ମାଛର</label>
+                <label><input type="radio" name="q20" value="d"> ଘ. ପକ୍ଷୀଙ୍କର</label>
+            </div>
+        </div>
+        
+         <div class="question-box">
+            <div class="question-text">୨୧. କେଉଁ ଅନାବନା ଉଭିଦ ଆମର ସବୁବେଳେ ଅପକାର କରିଥାନ୍ତି?</div>
+            <div class="options">
+                <label><input type="radio" name="q21" value="a"> କ. ତୁଳସୀ</label>
+                <label><input type="radio" name="q21" value="b"> ଖ. ଗାଜରଘାସ</label>
+                <label><input type="radio" name="q21" value="c"> ଗ. ଦୁବ</label>
+                <label><input type="radio" name="q21" value="d"> ଘ. ବେଲ</label>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">୨୨. ନିର୍ମୂଳୀ ଲତା ବିଷୟରେ କେଉଁ ତଥ୍ୟଟି ସତ୍ୟ?</div>
+            <div class="options">
+                <label><input type="radio" name="q22" value="a"> କ. ଏହା ନିଜେ ଖାଦ୍ୟ ପ୍ରସ୍ତୁତ କରେ</label>
+                <label><input type="radio" name="q22" value="b"> ଖ. ଏହା ଅନ୍ୟ ଗଛରୁ ଖାଦ୍ୟ ଗ୍ରହଣ କରେ</label>
+                <label><input type="radio" name="q22" value="c"> ଗ. ଏହା ମାଟିରୁ ଖାଦ୍ୟ ନିଏ</label>
+                <label><input type="radio" name="q22" value="d"> ଘ. ଏହା ଏକ ଔଷଧୀୟ ଗଛ</label>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">୨୩. ନିର୍ମୂଳୀ ମାଡ଼ିଥିବା ଗଛର କ’ଣ ହୁଏ?</div>
+            <div class="options">
+                <label><input type="radio" name="q23" value="a"> କ. ଗଛଟି ଖୁବ୍ ଭଲ ବଢେ</label>
+                <label><input type="radio" name="q23" value="b"> ଖ. ଗଛଟି ମୋଟା ହୋଇଯାଏ</label>
+                <label><input type="radio" name="q23" value="c"> ଗ. ଗଛଟି ଭଲ ବଢିପାରେ ନାହିଁ</label>
+                <label><input type="radio" name="q23" value="d"> ଘ. ଫଳ ଅଧିକ ହୁଏ</label>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">୨୪. କେଉଁ ପତ୍ର ଦେହରେ ଲାଗିଲେ ଦେହ କୁଣ୍ଡାଇ ହୁଏ?</div>
+            <div class="options">
+                <label><input type="radio" name="q24" value="a"> କ. ଆମ୍ବ ପତ୍ର</label>
+                <label><input type="radio" name="q24" value="b"> ଖ. ବିଛୁଆତି ପତ୍ର</label>
+                <label><input type="radio" name="q24" value="c"> ଗ. ନିମ୍ବ ପତ୍ର</label>
+                <label><input type="radio" name="q24" value="d"> ଘ. କଦଳୀ ପତ୍ର</label>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">୨୫. ବାଇଡ଼ଙ୍କ ଦେହରେ ଲାଗିଲେ କ’ଣ ହୁଏ?</div>
+            <div class="options">
+                <label><input type="radio" name="q25" value="a"> କ. ଦେହ ଥଣ୍ଡା ହୁଏ</label>
+                <label><input type="radio" name="q25" value="b"> ଖ. ଦେହ କୁଣ୍ଡାଇ ହୋଇ ଫଳିଯାଏ</label>
+                <label><input type="radio" name="q25" value="c"> ଗ. ରକ୍ତ ବାହାରେ</label>
+                <label><input type="radio" name="q25" value="d"> ଘ. ଜ୍ଵର ହୁଏ</label>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">୨୬. କେଉଁ ଉଭିଦ ଜଳକୁ ଦୂଷିତ କରନ୍ତି?</div>
+            <div class="options">
+                <label><input type="radio" name="q26" value="a"> କ. ପଦ୍ମ</label>
+                <label><input type="radio" name="q26" value="b"> ଖ. ଚିଙ୍ଗୁଡ଼ିଆ ଦଳ</label>
+                <label><input type="radio" name="q26" value="c"> ଗ. କଇଁ</label>
+                <label><input type="radio" name="q26" value="d"> ଘ. ଶାଗ</label>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">୨୭. ବୋରଝାଞ୍ଜି କେଉଁଠାରେ ଦେଖାଯାଏ?</div>
+            <div class="options">
+                <label><input type="radio" name="q27" value="a"> କ. ପାହାଡ଼ରେ</label>
+                <label><input type="radio" name="q27" value="b"> ଖ. ଗଡ଼ିଆ ଓ ପୋଖରୀରେ</label>
+                <label><input type="radio" name="q27" value="c"> ଗ. ଘର ଛାତରେ</label>
+                <label><input type="radio" name="q27" value="d"> ଘ. ବାଲିରେ</label>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">୨୮. ଦୂଷିତ ଜଳରେ କିଏ ଅନାୟାସରେ ବଂଶ ବୃଦ୍ଧି କରନ୍ତି?</div>
+            <div class="options">
+                <label><input type="radio" name="q28" value="a"> କ. ମାଛ</label>
+                <label><input type="radio" name="q28" value="b"> ଖ. ମଶା</label>
+                <label><input type="radio" name="q28" value="c"> ଗ. କଙ୍କଡା</label>
+                <label><input type="radio" name="q28" value="d"> ଘ. ବେଙ୍ଗ</label>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">୨୯. ଦୂଷିତ ଜଳ ବ୍ୟବହାର ଦ୍ୱାରା ମଣିଷ ଓ ପଶୁଙ୍କର କ’ଣ ହୁଏ?</div>
+            <div class="options">
+                <label><input type="radio" name="q29" value="a"> କ. ସ୍ୱାସ୍ଥ୍ୟ ଭଲ ରହେ</label>
+                <label><input type="radio" name="q29" value="b"> ଖ. ବିଭିନ୍ନ ରୋଗ ହୁଏ</label>
+                <label><input type="radio" name="q29" value="c"> ଗ. ଶକ୍ତି ବଢେ</label>
+                <label><input type="radio" name="q29" value="d"> ଘ. ଆୟୁଷ ବଢେ</label>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">୩୦. ମୁଥା ଘାସ ଏକ _____ ଉଭିଦ।</div>
+            <div class="options">
+                <label><input type="radio" name="q30" value="a"> କ. ଦରକାରୀ</label>
+                <label><input type="radio" name="q30" value="b"> ଖ. ଅନାବନା ଓ କ୍ଷତିକାରକ</label>
+                <label><input type="radio" name="q30" value="c"> ଗ. ଫଳଦାୟକ</label>
+                <label><input type="radio" name="q30" value="d"> ଘ. ସୁନ୍ଦର</label>
+            </div>
+        </div>
+
+         <div class="question-box">
+            <div class="question-text">୩୧. କେଉଁ ଯୋଡ଼ିଟି ଠିକ୍?</div>
+            <div class="options">
+                <label><input type="radio" name="q31" value="a"> କ. ମଶା - କୀଟ</label>
+                <label><input type="radio" name="q31" value="b"> ଖ. ଉକୁଣୀ - ପତଙ୍ଗ</label>
+                <label><input type="radio" name="q31" value="c"> ଗ. ପ୍ରଜାପତି - ପତଙ୍ଗ</label>
+                <label><input type="radio" name="q31" value="d"> ଘ. ମାଛି - ପକ୍ଷୀ</label>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">୩୨. ନିର୍ମୂଳୀ ଲତାର ଖାଦ୍ୟ ସଂଗ୍ରହ ପ୍ରଣାଳୀ କିପରି?</div>
+            <div class="options">
+                <label><input type="radio" name="q32" value="a"> କ. ସ୍ୱାବଲମ୍ବୀ</label>
+                <label><input type="radio" name="q32" value="b"> ଖ. ପରଜୀବୀ</label>
+                <label><input type="radio" name="q32" value="c"> ଗ. ମୃତଜୀବୀ</label>
+                <label><input type="radio" name="q32" value="d"> ଘ. ସହଜୀବୀ</label>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">୩୩. ଫସଲ କିଆରୀରୁ ଅନାବନା ଗଛ ବାଛିବା ପାଇଁ ଚାଷୀକୁ କ’ଣ କରିବାକୁ ପଡେ?</div>
+            <div class="options">
+                <label><input type="radio" name="q33" value="a"> କ. ଅଧିକ ଖର୍ଚ୍ଚ</label>
+                <label><input type="radio" name="q33" value="b"> ଖ. କମ୍ ଖର୍ଚ୍ଚ</label>
+                <label><input type="radio" name="q33" value="c"> ଗ. ଲାଭ</label>
+                <label><input type="radio" name="q33" value="d"> ଘ. କିଛି କରିବାକୁ ପଡେନାହିଁ</label>
+            </div>
+        </div>
+        
+        <div class="question-box">
+            <div class="question-text">୩୪. "ସୁଆଁ" କି ପ୍ରକାର ଉଭିଦ?</div>
+            <div class="options">
+                <label><input type="radio" name="q34" value="a"> କ. ଅନାବନା ଉଭିଦ</label>
+                <label><input type="radio" name="q34" value="b"> ଖ. ଦରକାରୀ ଶସ୍ୟ</label>
+                <label><input type="radio" name="q34" value="c"> ଗ. ଫୁଲ ଗଛ</label>
+                <label><input type="radio" name="q34" value="d"> ଘ. କାଠ ଗଛ</label>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">୩୫. ଏମାନଙ୍କ ମଧ୍ୟରୁ କିଏ ପକ୍ଷୀ ନୁହେଁ କିନ୍ତୁ ଉଡିପାରେ?</div>
+            <div class="options">
+                <label><input type="radio" name="q35" value="a"> କ. ବାଦୁଡି</label>
+                <label><input type="radio" name="q35" value="b"> ଖ. ଅସରପା</label>
+                <label><input type="radio" name="q35" value="c"> ଗ. ଉଭୟ (କ) ଓ (ଖ)</label>
+                <label><input type="radio" name="q35" value="d"> ଘ. କେବଳ ପକ୍ଷୀ ଉଡିପାରନ୍ତି</label>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">୩୬. ନିମ୍ନଲିଖିତ କେଉଁଟି ଏକ ଜଳଜ ଅନାବନା ଉଭିଦ?</div>
+            <div class="options">
+                <label><input type="radio" name="q36" value="a"> କ. ଶୈବାଳ</label>
+                <label><input type="radio" name="q36" value="b"> ଖ. ଗାଜରଘାସ</label>
+                <label><input type="radio" name="q36" value="c"> ଗ. ବାଇଡ଼ଙ୍କ</label>
+                <label><input type="radio" name="q36" value="d"> ଘ. ମୁଥା</label>
+            </div>
+        </div>
+        
+        <div class="question-box">
+            <div class="question-text">୩୭. ହଳଦିଗୁଣ୍ଡି ପୋକର ରଙ୍ଗ ସାଧାରଣତଃ କିପରି ହୋଇଥାଏ (ନାମ ଅନୁସାରେ)?</div>
+            <div class="options">
+                <label><input type="radio" name="q37" value="a"> କ. କଳା</label>
+                <label><input type="radio" name="q37" value="b"> ଖ. ନାଲି</label>
+                <label><input type="radio" name="q37" value="c"> ଗ. ହଳଦିଆ</label>
+                <label><input type="radio" name="q37" value="d"> ଘ. ସବୁଜ</label>
+            </div>
+        </div>
+        
+        <div class="question-box">
+            <div class="question-text">୩୮. ପତଙ୍ଗମାନଙ୍କର କେତୋଟି ଡେଣା ଥାଏ?</div>
+            <div class="options">
+                <label><input type="radio" name="q38" value="a"> କ. ନାହିଁ</label>
+                <label><input type="radio" name="q38" value="b"> ଖ. ଅଛି</label>
+                <label><input type="radio" name="q38" value="c"> ଗ. ଗୋଟିଏ</label>
+                <label><input type="radio" name="q38" value="d"> ଘ. ଚାରୋଟି</label>
+            </div>
+        </div>
+        
+        <div class="question-box">
+            <div class="question-text">୩୯. କେଉଁ ପୋକ ଧାନର କ୍ଷତି କରେ?</div>
+            <div class="options">
+                <label><input type="radio" name="q39" value="a"> କ. ରେଶମ ପୋକ</label>
+                <label><input type="radio" name="q39" value="b"> ଖ. ଝିଣ୍ଟିକା</label>
+                <label><input type="radio" name="q39" value="c"> ଗ. ମହୁମାଛି</label>
+                <label><input type="radio" name="q39" value="d"> ଘ. ବୁଢିଆଣୀ</label>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">୪୦. ଉଭିଦ ଜଗତର ଅଧିକାଂଶ ଉଭିଦ ଆମର ____?</div>
+            <div class="options">
+                <label><input type="radio" name="q40" value="a"> କ. ଅପକାରୀ</label>
+                <label><input type="radio" name="q40" value="b"> ଖ. ଉପକାରୀ</label>
+                <label><input type="radio" name="q40" value="c"> ଗ. ବିଷାକ୍ତ</label>
+                <label><input type="radio" name="q40" value="d"> ଘ. ଅଦରକାରୀ</label>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">୪୧. ସତ୍ୟ କି ମିଛ: ଅସରପା ଏକ ପକ୍ଷୀ।</div>
+            <div class="options">
+                <label><input type="radio" name="q41" value="a"> କ. ସତ୍ୟ</label>
+                <label><input type="radio" name="q41" value="b"> ଖ. ମିଛ</label>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">୪୨. ସତ୍ୟ କି ମିଛ: ନିର୍ମୂଳୀ ନିଜ ଖାଦ୍ୟ ନିଜେ ତିଆରି କରେ।</div>
+            <div class="options">
+                <label><input type="radio" name="q42" value="a"> କ. ସତ୍ୟ</label>
+                <label><input type="radio" name="q42" value="b"> ଖ. ମିଛ</label>
+            </div>
+        </div>
+        
+        <div class="question-box">
+            <div class="question-text">୪୩. ସତ୍ୟ କି ମିଛ: ଚିଙ୍ଗୁଡ଼ିଆ ଦଳ ପାଣିକୁ ସଫା କରେ।</div>
+            <div class="options">
+                <label><input type="radio" name="q43" value="a"> କ. ସତ୍ୟ</label>
+                <label><input type="radio" name="q43" value="b"> ଖ. ମିଛ</label>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">୪୪. ସତ୍ୟ କି ମିଛ: ପିମ୍ପୁଡ଼ି ଏକ କୀଟ।</div>
+            <div class="options">
+                <label><input type="radio" name="q44" value="a"> କ. ସତ୍ୟ</label>
+                <label><input type="radio" name="q44" value="b"> ଖ. ମିଛ</label>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">୪୫. ସତ୍ୟ କି ମିଛ: ହଳଦିଗୁଣ୍ଡି ପୋକ ମଣିଷ ରକ୍ତ ପିଏ।</div>
+            <div class="options">
+                <label><input type="radio" name="q45" value="a"> କ. ସତ୍ୟ</label>
+                <label><input type="radio" name="q45" value="b"> ଖ. ମିଛ</label>
+            </div>
+        </div>
+
+        <button type="button" class="submit-btn" onclick="checkAnswers()">ଉତ୍ତର ଯାଞ୍ଚ କରନ୍ତୁ (Submit)</button>
+    </form>
+
+    <div id="result" class="result"></div>
+</div>
+
+<script>
+    // Correct answers mapping
+    const answers = {
+        q1: 'b', q2: 'c', q3: 'd', q4: 'b', q5: 'b',
+        q6: 'c', q7: 'c', q8: 'b', q9: 'a', q10: 'b',
+        q11: 'c', q12: 'c', q13: 'a', q14: 'b', q15: 'b',
+        q16: 'b', q17: 'b', q18: 'c', q19: 'a', q20: 'b',
+        q21: 'b', q22: 'b', q23: 'c', q24: 'b', q25: 'b',
+        q26: 'b', q27: 'b', q28: 'b', q29: 'b', q30: 'b',
+        q31: 'c', q32: 'b', q33: 'a', q34: 'a', q35: 'b',
+        q36: 'a', q37: 'c', q38: 'b', q39: 'b', q40: 'b',
+        q41: 'b', q42: 'b', q43: 'b', q44: 'a', q45: 'b'
+    };
+
+    function checkAnswers() {
+        let score = 0;
+        let total = Object.keys(answers).length;
+        let form = document.getElementById('quizForm');
+        
+        // Reset styles
+        let options = document.querySelectorAll('.options label');
+        options.forEach(opt => {
+            opt.style.backgroundColor = '#f9f9f9';
+            opt.style.border = 'none';
+        });
+
+        for (let q in answers) {
+            let selected = form.elements[q].value;
+            let correctAnswer = answers[q];
+            
+            let questionDiv = document.getElementsByName(q)[0].closest('.question-box');
+            
+            if (selected === correctAnswer) {
+                score++;
+                questionDiv.style.borderLeft = "5px solid green";
+            } else {
+                questionDiv.style.borderLeft = "5px solid red";
+            }
+            
+            // Highlight correct answer
+            let options = document.getElementsByName(q);
+            for(let opt of options) {
+                if(opt.value === correctAnswer) {
+                    opt.parentElement.style.backgroundColor = "#d4edda"; // Light green
+                    opt.parentElement.style.border = "1px solid green";
+                }
+                if(selected === opt.value && selected !== correctAnswer) {
+                     opt.parentElement.style.backgroundColor = "#f8d7da"; // Light red
+                }
+            }
+        }
+
+        let resultDiv = document.getElementById('result');
+        resultDiv.style.display = 'block';
+        resultDiv.innerHTML = `ଆପଣଙ୍କ ସ୍କୋର: ${score} / ${total}`;
+        
+        if (score === total) {
+            resultDiv.style.color = "green";
+            resultDiv.innerHTML += "<br>ଚମତ୍କାର! ସବୁ ଉତ୍ତର ଠିକ୍।";
+        } else {
+            resultDiv.style.color = "#333";
+            resultDiv.innerHTML += "<br>ଦୟାକରି ଭୁଲ ଉତ୍ତରଗୁଡିକୁ ଯାଞ୍ଚ କରନ୍ତୁ।";
+        }
+        
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+</script>
+
+</body>
+</html>
+<ALOASK-SEPARATE-EDITORS><ALOASK-SEPARATE-EDITORS>
